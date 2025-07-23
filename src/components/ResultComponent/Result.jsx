@@ -8,7 +8,7 @@ export default function Result(){
       <div className="content">
       <div className="bg">
              <img className='visible' src="/big.png" alt="" />
-        <img className='hidden' src="public/Group 10 (2).png" alt="" />
+        <img className='hidden' src="/Group 10 (2).png" alt="" />
       </div>
 
       <div className="result">
@@ -20,7 +20,7 @@ export default function Result(){
       </div>
         <div className="cards">
          <img className='visible' src="/Group 16.png" alt="" />
-        <img className='hidden' id="display" src="public/Group 9.png" alt="" />
+        <img className='hidden' id="display" src="/Group 9.png" alt="" />
       </div>
     </div>
     
