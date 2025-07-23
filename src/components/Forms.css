@@ -1,0 +1,140 @@
+
+
+form{
+    width: 381px;
+}
+.content{
+    display: flex;
+    position: relative;
+    gap:400px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.hidden{
+    display: none;
+}
+.text{
+   
+   margin-top: 4px;
+}
+.div{
+   margin-bottom: 32px;
+}
+
+.cards img{
+  position: absolute;
+  top:20%;
+  left:10%;
+}
+.erordiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+background-color: #21092F;
+width: 100%;
+font-family: Space Grotesk;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0px;
+border:none;
+border-radius: 8px;
+height: 53px;
+color:white;
+
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.date input {
+    width: 80px;
+}
+.cvv{
+    display: flex;
+    flex-direction: column;
+}
+.cvv input{
+    width: 191px;
+}
+.label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+label{
+    font-family: Space Grotesk;
+font-weight: 500;
+font-style: Medium;
+font-size: 12px;
+color:#21092F;
+line-height: 100%;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+}
+
+input{
+    width: 100%;
+    margin-top: 9px;
+    border: 1px solid #DFDEE0;
+    padding: 16px 11px;
+    border-radius: 8px;
+}
+
+.text{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.error {
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 376px){
+.content{
+    gap: 100px !important;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 340px;
+}
+.hidden{
+    display: block;
+}
+.visible{
+    display: none;
+}
+#display{
+    position: absolute;
+    top:0%;
+    left:0%
+}
+.cards{
+    position: absolute;
+     top:0%;
+     left:1%; 
+}
+button{
+    width: 340px  !important;; 
+}
+
+
+}
+

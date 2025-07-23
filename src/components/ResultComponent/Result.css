@@ -1,0 +1,84 @@
+.content{
+    display: flex;
+    position: relative;
+    gap:400px;
+    align-items: center;
+   
+}
+
+.cards img{
+  position: absolute;
+  top:20%;
+  left:10%;
+}
+
+button{
+    width: 381px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+.result{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 381px;
+ 
+   position: relative;
+   
+}
+#absolute{
+    position: absolute;
+    top:12%;
+}
+
+h1{
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+
+.result p{
+    margin-bottom: 16px;
+}
+
+
+
+@media screen and (max-width: 376px){
+.content{
+    gap: 100px !important;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    width: 340px;
+}
+.hidden{
+    display: block;
+}
+.visible{
+    display: none;
+}
+#display{
+    position: absolute;
+    top:0%;
+    left:0%
+}
+.cards{
+    position: absolute;
+     top:0%;
+     left:1%; 
+}
+button{
+    width: 340px  !important;; 
+    margin-bottom: 60px;
+}
+
+
+}
+
+
+
+
+

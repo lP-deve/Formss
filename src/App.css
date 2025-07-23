@@ -1,0 +1,22 @@
+html{
+    background-color: rgb(239, 242, 242);
+}
+
+body{
+    width: 1440px;
+    margin:0 auto;
+    background-color: white;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 376px){
+    body{
+        width: 376px;
+    }
+}
+
