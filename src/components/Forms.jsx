@@ -65,6 +65,7 @@ export default function Forms() {
       <div className="cards">
         <img className='visible' src="/Group 16.png" alt="Card front" />
         <img className='hidden' id="display" src="/Group 9.png" alt="Card back" />
+        <div></div>
       </div>
     </div>
   );
